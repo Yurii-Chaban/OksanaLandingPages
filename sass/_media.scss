@@ -90,6 +90,7 @@
 
 	.slider {
 		margin-top: -85px !important;
+		min-height: 621px;
 
 		.left-rgba {
 			position: absolute;
@@ -206,6 +207,7 @@
 
 			img {
 				margin-right: 0 !important;
+				min-height: 621px;
 			}
 			.slide-desc {
 				.content-desc {
@@ -325,8 +327,12 @@
 
 		/*logo*/
 		.logo {
+			margin: 0;
 			.logo-mobile {
 				display: none;
+			}
+			.desctop-logo{
+				display: block;
 			}
 
 			img {

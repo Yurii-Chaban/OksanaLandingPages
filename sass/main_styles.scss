@@ -156,18 +156,23 @@ header {
 }
 /*logo*/
 .logo {
-	.logo-mobile {
-	width: 145px;
-	overflow: hidden;
+	max-width: 145px;
 	margin: 0 auto;
-	/*float: left;*/
-	text-align: center;
+	.logo-mobile {
+		max-width: 145px;
+		overflow: hidden;
+		margin: 0 auto;
+		/*float: left;*/
+		text-align: center;
 
-	img {
-		max-width: 100%;
-		height: auto;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
 	}
-}
+	.desctop-logo {
+		display: none;
+	}
 }
 .logo-info,
 .right-block {
